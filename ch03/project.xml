@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 3" package="openfl.foundationanimation.ch03"/>
+	<app file="AnimationCh03"/>
+	
+	<app main="Bobbing"/>
+	<!-- <app main="Circle"/> -->
+	<!-- <app main="Distance"/> -->
+	<!-- <app main="MouseDistance"/> -->
+	<!-- <app main="Oval"/> -->
+	<!-- <app main="Pulse"/> -->
+	<!-- <app main="Random"/> -->
+	<!-- <app main="RotateToMouse"/> -->
+	<!-- <app main="Wave1"/> -->
+	<!-- <app main="Wave2"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

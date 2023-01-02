@@ -18,6 +18,7 @@ jobs:
         run: |
           haxelib install lime --quiet
           haxelib install openfl --quiet
+      # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
         run: |
@@ -50,3 +51,44 @@ jobs:
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final --app-main=Reparenting
+      # ---------- chapter 3 ----------
+      - name: Build ch03/Bobbing
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Bobbing
+      - name: Build ch03/Circle
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Circle
+      - name: Build ch03/Distance
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Distance
+      - name: Build ch03/MouseDistance
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=MouseDistance
+      - name: Build ch03/Oval
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Oval
+      - name: Build ch03/Pulse
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Pulse
+      - name: Build ch03/Random
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Random
+      - name: Build ch03/RotateToMouse
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=RotateToMouse
+      - name: Build ch03/Wave1
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Wave1
+      - name: Build ch03/Wave2
+        working-directory: ch03
+        run: |
+          haxelib run openfl build html5 -final --app-main=Wave2
