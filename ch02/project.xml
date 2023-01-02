@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 2" package="openfl.foundationanimation.ch02"/>
+	<app file="AnimationCh02"/>
+	
+	<!-- <app main="App"/> -->
+	<!-- <app main="EventDemo"/> -->
+	<app main="FirstAnimation"/>
+	<!-- <app main="KeyboardEvents"/> -->
+	<!-- <app main="KeyCodes"/> -->
+	<!-- <app main="MouseEvents"/> -->
+	<!-- <app main="MousePos"/> -->
+	<!-- <app main="Reparenting"/> -->
+	<!-- <app main="Reparenting2"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
