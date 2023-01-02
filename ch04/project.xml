@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 4" package="openfl.foundationanimation.ch04"/>
+	<app file="AnimationCh04"/>
+	
+	<app main="AnimatedFilters"/>
+	<!-- <app main="CurveThroughPoint"/> -->
+	<!-- <app main="DrawingApp"/> -->
+	<!-- <app main="DrawingCurves"/> -->
+	<!-- <app main="EmbedAsset1"/> -->
+	<!-- <app main="EmbedAsset2"/> -->
+	<!-- <app main="Filters"/> -->
+	<!-- <app main="GradientFill"/> -->
+	<!-- <app main="LoadAsset"/> -->
+	<!-- <app main="LoadAsset2"/> -->
+	<!-- <app main="MultiCurves1"/> -->
+	<!-- <app main="MultiCurves2"/> -->
+	<!-- <app main="MultiCurves3"/> -->
+	<!-- <app main="MultiCurves3Filled"/> -->
+	<!-- <app main="MultiFilters"/> -->
+	<!-- <app main="SprayPaint"/> -->
+	<!-- <app main="TransformColor"/> -->
+	<!-- <app main="SimpleBitmap"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+
+	<assets id="picture_embedded" path="src/picture.jpg" embed="true"/>
+	<assets id="picture_load" path="src/picture.jpg" embed="false"/>
+</project>

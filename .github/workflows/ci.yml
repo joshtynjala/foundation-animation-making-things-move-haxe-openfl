@@ -92,3 +92,76 @@ jobs:
         working-directory: ch03
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Wave2
+      # ---------- chapter 4 ----------
+      - name: Build ch04/AnimatedFilters
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AnimatedFilters
+      - name: Build ch04/CurveThroughPoint
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=CurveThroughPoint
+      - name: Build ch04/DrawingApp
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=DrawingApp
+      - name: Build ch04/DrawingCurves
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=DrawingCurves
+      - name: Build ch04/EmbedAsset1
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=EmbedAsset1
+      - name: Build ch04/EmbedAsset2
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=EmbedAsset2
+      - name: Build ch04/Filters
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Filters
+      - name: Build ch04/GradientFill
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=GradientFill
+      - name: Build ch04/LoadAsset1
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=LoadAsset1
+      - name: Build ch04/LoadAsset2
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=LoadAsset2
+      - name: Build ch04/MultiCurves1
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiCurves1
+      - name: Build ch04/MultiCurves2
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiCurves2
+      - name: Build ch04/MultiCurves3
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiCurves3
+      - name: Build ch04/MultiCurves3Filled
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiCurves3Filled
+      - name: Build ch04/MultiFilters
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiFilters
+      - name: Build ch04/SimpleBitmap
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SimpleBitmap
+      - name: Build ch04/SprayPaint
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SprayPaint
+      - name: Build ch04/TransformColor
+        working-directory: ch04
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TransformColor
