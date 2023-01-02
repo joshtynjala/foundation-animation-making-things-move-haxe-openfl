@@ -22,73 +22,73 @@ jobs:
       - name: Build ch02/App
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=App
+          haxelib run openfl build html5 -final -clean --app-main=App
       - name: Build ch02/EventDemo
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=EventDemo
+          haxelib run openfl build html5 -final -clean --app-main=EventDemo
       - name: Build ch02/FirstAnimation
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=FirstAnimation
+          haxelib run openfl build html5 -final -clean --app-main=FirstAnimation
       - name: Build ch02/KeyboardEvents
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=KeyboardEvents
+          haxelib run openfl build html5 -final -clean --app-main=KeyboardEvents
       - name: Build ch02/KeyCodes
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=KeyCodes
+          haxelib run openfl build html5 -final -clean --app-main=KeyCodes
       - name: Build ch02/MouseEvents
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=MouseEvents
+          haxelib run openfl build html5 -final -clean --app-main=MouseEvents
       - name: Build ch02/MousePos
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=MousePos
+          haxelib run openfl build html5 -final -clean --app-main=MousePos
       - name: Build ch02/Reparenting
         working-directory: ch02
         run: |
-          haxelib run openfl build html5 -final --app-main=Reparenting
+          haxelib run openfl build html5 -final -clean --app-main=Reparenting
       # ---------- chapter 3 ----------
       - name: Build ch03/Bobbing
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Bobbing
+          haxelib run openfl build html5 -final -clean --app-main=Bobbing
       - name: Build ch03/Circle
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Circle
+          haxelib run openfl build html5 -final -clean --app-main=Circle
       - name: Build ch03/Distance
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Distance
+          haxelib run openfl build html5 -final -clean --app-main=Distance
       - name: Build ch03/MouseDistance
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=MouseDistance
+          haxelib run openfl build html5 -final -clean --app-main=MouseDistance
       - name: Build ch03/Oval
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Oval
+          haxelib run openfl build html5 -final -clean --app-main=Oval
       - name: Build ch03/Pulse
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Pulse
+          haxelib run openfl build html5 -final -clean --app-main=Pulse
       - name: Build ch03/Random
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Random
+          haxelib run openfl build html5 -final -clean --app-main=Random
       - name: Build ch03/RotateToMouse
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=RotateToMouse
+          haxelib run openfl build html5 -final -clean --app-main=RotateToMouse
       - name: Build ch03/Wave1
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Wave1
+          haxelib run openfl build html5 -final -clean --app-main=Wave1
       - name: Build ch03/Wave2
         working-directory: ch03
         run: |
-          haxelib run openfl build html5 -final --app-main=Wave2
+          haxelib run openfl build html5 -final -clean --app-main=Wave2
