@@ -8,16 +8,16 @@ Sample code translated to [OpenFL](https://openfl.org/) and [Haxe](https://haxe.
 
 Several samples from this chapter are available in the _src_ directory.
 
-- _Bobbing.hx_
-- _Circle.hx_
-- _Distance.hx_
-- _MouseDistance.hx_
-- _Oval.hx_
-- _Pulse.hx_
-- _Random.hx_
-- _RotateToMouse.hx_
-- _Wave1.hx_
-- _Wave2.hx_
+- [_Bobbing.hx_](src/Bobbing.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Bobbing/index.html)
+- [_Circle.hx_](src/Circle.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Circle/index.html)
+- [_Distance.hx_](src/Distance.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Distance/index.html)
+- [_MouseDistance.hx_](src/MouseDistance.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/MouseDistance/index.html)
+- [_Oval.hx_](src/Oval.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Oval/index.html)
+- [_Pulse.hx_](src/Pulse.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Pulse/index.html)
+- [_Random.hx_](src/Random.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Random/index.html)
+- [_RotateToMouse.hx_](src/RotateToMouse.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/RotateToMouse/index.html)
+- [_Wave1.hx_](src/Wave1.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Wave1/index.html)
+- [_Wave2.hx_](src/Wave2.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch03/Wave2/index.html)
 
 ## Requirements
 
