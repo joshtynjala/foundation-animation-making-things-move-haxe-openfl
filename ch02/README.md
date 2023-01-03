@@ -8,15 +8,15 @@ Sample code translated to [OpenFL](https://openfl.org/) and [Haxe](https://haxe.
 
 Several samples from this chapter are available in the _src_ directory.
 
-- _App.hx_
-- _EventDemo.hx_
-- _FirstAnimation.hx_
-- _KeyboardEvents.hx_
-- _KeyCodes.hx_
-- _MouseEvents.hx_
-- _MousePos.hx_
-- _Reparenting.hx_
-- _Reparenting2.hx_
+- [_App.hx_](src/App.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/App/index.html)
+- [_EventDemo.hx_](src/EventDemo.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/EventDemo/index.html)
+- [_FirstAnimation.hx_](src/FirstAnimation.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/FirstAnimation/index.html)
+- [_KeyboardEvents.hx_](src/KeyboardEvents.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/KeyboardEvents/index.html)
+- [_KeyCodes.hx_](src/KeyCodes.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/KeyCodes/index.html)
+- [_MouseEvents.hx_](src/MouseEvents.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/MouseEvents/index.html)
+- [_MousePos.hx_](src/MousePos.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/MousePos/index.html)
+- [_Reparenting.hx_](src/Reparenting.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/Reparenting/index.html)
+- [_Reparenting2.hx_](src/Reparenting2.hx) | [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/Reparenting2/index.html)
 
 ## Requirements
 
