@@ -8,6 +8,8 @@ Sample code translated to [OpenFL](https://openfl.org/) and [Haxe](https://haxe.
 
 Several samples from this chapter are available in the _src_ directory.
 
+> ⚠️ **Hey!** For several of the demos in this chapter, you will need to open your web browser's debug console to see the expected output.
+
 - [_App.hx_](src/App.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/App/index.html)
 - [_EventDemo.hx_](src/EventDemo.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/EventDemo/index.html)
 - [_FirstAnimation.hx_](src/FirstAnimation.hx) — [Demo](https://joshtynjala.github.io/foundation-animation-making-things-move-haxe-openfl/ch02/FirstAnimation/index.html)
