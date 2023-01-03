@@ -65,6 +65,11 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Reparenting
           cp -R bin/html5/bin ../gh-pages/ch02/Reparenting
+      - name: Build ch02/Reparenting2
+        working-directory: ch02
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Reparenting
+          cp -R bin/html5/bin ../gh-pages/ch02/Reparenting2
       # ---------- chapter 3 ----------
       - name: Build ch03/Bobbing
         working-directory: ch03
