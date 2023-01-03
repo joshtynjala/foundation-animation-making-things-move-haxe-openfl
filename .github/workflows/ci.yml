@@ -29,42 +29,42 @@ jobs:
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=App
-          cp -R bin/html5/bin gh-pages/ch02/App
+          cp -R bin/html5/bin ../gh-pages/ch02/App
       - name: Build ch02/EventDemo
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=EventDemo
-          cp -R bin/html5/bin gh-pages/ch02/EventDemo
+          cp -R bin/html5/bin ../gh-pages/ch02/EventDemo
       - name: Build ch02/FirstAnimation
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=FirstAnimation
-          cp -R bin/html5/bin gh-pages/ch02/FirstAnimation
+          cp -R bin/html5/bin ../gh-pages/ch02/FirstAnimation
       - name: Build ch02/KeyboardEvents
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=KeyboardEvents
-          cp -R bin/html5/bin gh-pages/ch02/KeyboardEvents
+          cp -R bin/html5/bin ../gh-pages/ch02/KeyboardEvents
       - name: Build ch02/KeyCodes
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=KeyCodes
-          cp -R bin/html5/bin gh-pages/ch02/KeyCodes
+          cp -R bin/html5/bin ../gh-pages/ch02/KeyCodes
       - name: Build ch02/MouseEvents
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=MouseEvents
-          cp -R bin/html5/bin gh-pages/ch02/MouseEvents
+          cp -R bin/html5/bin ../gh-pages/ch02/MouseEvents
       - name: Build ch02/MousePos
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=MousePos
-          cp -R bin/html5/bin gh-pages/ch02/MousePos
+          cp -R bin/html5/bin ../gh-pages/ch02/MousePos
       - name: Build ch02/Reparenting
         working-directory: ch02
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Reparenting
-          cp -R bin/html5/bin gh-pages/ch02/Reparenting
+          cp -R bin/html5/bin ../gh-pages/ch02/Reparenting
       # ---------- chapter 3 ----------
       - name: Build ch03/Bobbing
         working-directory: ch03
