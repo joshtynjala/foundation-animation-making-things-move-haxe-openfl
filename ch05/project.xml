@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 5" package="openfl.foundationanimation.ch05"/>
+	<app file="AnimationCh05"/>
+	
+	<app main="Acceleration1"/>
+	<!-- <app main="Acceleration2"/> -->
+	<!-- <app main="Acceleration3"/> -->
+	<!-- <app main="FollowMouse1"/> -->
+	<!-- <app main="FollowMouse2"/> -->
+	<!-- <app main="Gravity"/> -->
+	<!-- <app main="RotationalVelocity"/> -->
+	<!-- <app main="ShipSim"/> -->
+	<!-- <app main="Velocity1"/> -->
+	<!-- <app main="Velocity2"/> -->
+	<!-- <app main="VelocityAngle"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

@@ -212,6 +212,61 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=TransformColor
           cp -R bin/html5/bin ../gh-pages/ch04/TransformColor
+      - name: Build ch05/Acceleration1
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Acceleration1
+          cp -R bin/html5/bin ../gh-pages/ch05/Acceleration1
+      - name: Build ch05/Acceleration2
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Acceleration2
+          cp -R bin/html5/bin ../gh-pages/ch05/Acceleration2
+      - name: Build ch05/Acceleration3
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Acceleration3
+          cp -R bin/html5/bin ../gh-pages/ch05/Acceleration3
+      - name: Build ch05/FollowMouse1
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=FollowMouse1
+          cp -R bin/html5/bin ../gh-pages/ch05/FollowMouse1
+      - name: Build ch05/FollowMouse2
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=FollowMouse2
+          cp -R bin/html5/bin ../gh-pages/ch05/FollowMouse2
+      - name: Build ch05/Gravity
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Gravity
+          cp -R bin/html5/bin ../gh-pages/ch05/Gravity
+      - name: Build ch05/RotationalVelocity
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RotationalVelocity
+          cp -R bin/html5/bin ../gh-pages/ch05/RotationalVelocity
+      - name: Build ch05/ShipSim
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ShipSim
+          cp -R bin/html5/bin ../gh-pages/ch05/ShipSim
+      - name: Build ch05/Velocity1
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Velocity1
+          cp -R bin/html5/bin ../gh-pages/ch05/Velocity1
+      - name: Build ch05/Velocity2
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Velocity2
+          cp -R bin/html5/bin ../gh-pages/ch05/Velocity2
+      - name: Build ch05/VelocityAngle
+        working-directory: ch05
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=VelocityAngle
+          cp -R bin/html5/bin ../gh-pages/ch05/VelocityAngle
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
