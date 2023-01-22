@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 6" package="openfl.foundationanimation.ch06"/>
+	<app file="AnimationCh06"/>
+	
+	<app main="Bouncing1"/>
+	<!-- <app main="Bouncing2"/> -->
+	<!-- <app main="Fountain"/> -->
+	<!-- <app main="Friction1"/> -->
+	<!-- <app main="Friction2"/> -->
+	<!-- <app main="Removal"/> -->
+	<!-- <app main="ShipSim2"/> -->
+	<!-- <app main="ShipSimFriction"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

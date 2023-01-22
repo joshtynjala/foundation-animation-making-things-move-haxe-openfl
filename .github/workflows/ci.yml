@@ -267,6 +267,46 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=VelocityAngle
           cp -R bin/html5/bin ../gh-pages/ch05/VelocityAngle
+      - name: Build ch06/Bouncing1
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Bouncing1
+          cp -R bin/html5/bin ../gh-pages/ch06/Bouncing1
+      - name: Build ch06/Bouncing2
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Bouncing2
+          cp -R bin/html5/bin ../gh-pages/ch06/Bouncing2
+      - name: Build ch06/Fountain
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Fountain
+          cp -R bin/html5/bin ../gh-pages/ch06/Fountain
+      - name: Build ch06/Friction1
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Friction1
+          cp -R bin/html5/bin ../gh-pages/ch06/Friction1
+      - name: Build ch06/Friction2
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Friction2
+          cp -R bin/html5/bin ../gh-pages/ch06/Friction2
+      - name: Build ch06/Removal
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Removal
+          cp -R bin/html5/bin ../gh-pages/ch06/Removal
+      - name: Build ch06/ShipSim2
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ShipSim2
+          cp -R bin/html5/bin ../gh-pages/ch06/ShipSim2
+      - name: Build ch06/ShipSimFriction
+        working-directory: ch06
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ShipSimFriction
+          cp -R bin/html5/bin ../gh-pages/ch06/ShipSimFriction
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
