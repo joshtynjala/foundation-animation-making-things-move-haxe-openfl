@@ -307,6 +307,36 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=ShipSimFriction
           cp -R bin/html5/bin ../gh-pages/ch06/ShipSimFriction
+      - name: Build ch07/Drag
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Drag
+          cp -R bin/html5/bin ../gh-pages/ch07/Drag
+      - name: Build ch07/DragAndMove1
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=DragAndMove1
+          cp -R bin/html5/bin ../gh-pages/ch07/DragAndMove1
+      - name: Build ch07/DragAndMove2
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=DragAndMove2
+          cp -R bin/html5/bin ../gh-pages/ch07/DragAndMove2
+      - name: Build ch07/MouseEvents
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MouseEvents
+          cp -R bin/html5/bin ../gh-pages/ch07/MouseEvents
+      - name: Build ch07/MouseMoveDrag
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MouseMoveDrag
+          cp -R bin/html5/bin ../gh-pages/ch07/MouseMoveDrag
+      - name: Build ch07/Throwing
+        working-directory: ch07
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Throwing
+          cp -R bin/html5/bin ../gh-pages/ch07/Throwing
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3

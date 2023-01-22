@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 7" package="openfl.foundationanimation.ch07"/>
+	<app file="AnimationCh07"/>
+	
+	<app main="Drag"/>
+	<!-- <app main="DragAndMove1"/> -->
+	<!-- <app main="DragAndMove2"/> -->
+	<!-- <app main="MouseEvents"/> -->
+	<!-- <app main="MouseMoveDrag"/> -->
+	<!-- <app main="Throwing"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
