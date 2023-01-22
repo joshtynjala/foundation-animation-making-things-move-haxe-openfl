@@ -11,7 +11,7 @@ class Ball extends Sprite {
 		init();
 	}
 
-	public function init():Void {
+	private function init():Void {
 		graphics.beginFill(color);
 		graphics.drawCircle(0, 0, radius);
 		graphics.endFill();

@@ -6,7 +6,7 @@ class Arrow extends Sprite {
 		init();
 	}
 
-	public function init():Void {
+	private function init():Void {
 		graphics.lineStyle(1, 0, 1);
 		graphics.beginFill(0xffff00);
 		graphics.moveTo(-50, -25);
