@@ -1,4 +1,4 @@
-# OpenFL and Haxe: Foundation ActionScript 3.0 Animation
+# [OpenFL and Haxe] Foundation Animation: Moving Things Move
 
 Sample code translated to [OpenFL](https://openfl.org/) and [Haxe](https://haxe.org/) from [_Foundation ActionScript 3.0 Animation: Making Things Move_](http://www.apress.com/9781590597910) by Keith Peters (Apress, 2007).
 
