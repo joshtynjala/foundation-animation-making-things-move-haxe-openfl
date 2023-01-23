@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 10" package="openfl.foundationanimation.ch10"/>
+	<app file="AnimationCh10"/>
+	
+	<app main="AngleBounce"/>
+	<!-- <app main="AngleBounceBounds"/> -->
+	<!-- <app main="AngleBounceFinal"/> -->
+	<!-- <app main="AngleBounceOpt"/> -->
+	<!-- <app main="AngleBounceRotate"/> -->
+	<!-- <app main="MultiAngleBounce"/> -->
+	<!-- <app main="Rotate1"/> -->
+	<!-- <app main="Rotate2"/> -->
+	<!-- <app main="Rotate3"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

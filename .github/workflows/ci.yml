@@ -457,6 +457,51 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=ShapeFlag
           cp -R bin/html5/bin ../gh-pages/ch09/ShapeFlag
+      - name: Build ch10/AngleBounce
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AngleBounce
+          cp -R bin/html5/bin ../gh-pages/ch10/AngleBounce
+      - name: Build ch10/AngleBounceBounds
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AngleBounceBounds
+          cp -R bin/html5/bin ../gh-pages/ch10/AngleBounceBounds
+      - name: Build ch10/AngleBounceFinal
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AngleBounceFinal
+          cp -R bin/html5/bin ../gh-pages/ch10/AngleBounceFinal
+      - name: Build ch10/AngleBounceOpt
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AngleBounceOpt
+          cp -R bin/html5/bin ../gh-pages/ch10/AngleBounceOpt
+      - name: Build ch10/AngleBounceRotate
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=AngleBounceRotate
+          cp -R bin/html5/bin ../gh-pages/ch10/AngleBounceRotate
+      - name: Build ch10/MultiAngleBounce
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiAngleBounce
+          cp -R bin/html5/bin ../gh-pages/ch10/MultiAngleBounce
+      - name: Build ch10/Rotate1
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Rotate1
+          cp -R bin/html5/bin ../gh-pages/ch10/Rotate1
+      - name: Build ch10/Rotate2
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Rotate2
+          cp -R bin/html5/bin ../gh-pages/ch10/Rotate2
+      - name: Build ch10/Rotate3
+        working-directory: ch10
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Rotate3
+          cp -R bin/html5/bin ../gh-pages/ch10/Rotate3
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
