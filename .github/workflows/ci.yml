@@ -337,6 +337,86 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Throwing
           cp -R bin/html5/bin ../gh-pages/ch07/Throwing
+      - name: Build ch08/Chain
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Chain
+          cp -R bin/html5/bin ../gh-pages/ch08/Chain
+      - name: Build ch08/ChainArray
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ChainArray
+          cp -R bin/html5/bin ../gh-pages/ch08/ChainArray
+      - name: Build ch08/DoubleSpring
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=DoubleSpring
+          cp -R bin/html5/bin ../gh-pages/ch08/DoubleSpring
+      - name: Build ch08/EaseToMouse
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=EaseToMouse
+          cp -R bin/html5/bin ../gh-pages/ch08/EaseToMouse
+      - name: Build ch08/Easing1
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Easing1
+          cp -R bin/html5/bin ../gh-pages/ch08/Easing1
+      - name: Build ch08/Easing2
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Easing2
+          cp -R bin/html5/bin ../gh-pages/ch08/Easing2
+      - name: Build ch08/EasingOff
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=EasingOff
+          cp -R bin/html5/bin ../gh-pages/ch08/EasingOff
+      - name: Build ch08/MultiSpring
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiSpring
+          cp -R bin/html5/bin ../gh-pages/ch08/MultiSpring
+      - name: Build ch08/OffsetSpring
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=OffsetSpring
+          cp -R bin/html5/bin ../gh-pages/ch08/OffsetSpring
+      - name: Build ch08/Spring1
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring1
+          cp -R bin/html5/bin ../gh-pages/ch08/Spring1
+      - name: Build ch08/Spring2
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring2
+          cp -R bin/html5/bin ../gh-pages/ch08/Spring2
+      - name: Build ch08/Spring3
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring3
+          cp -R bin/html5/bin ../gh-pages/ch08/Spring3
+      - name: Build ch08/Spring4
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring4
+          cp -R bin/html5/bin ../gh-pages/ch08/Spring4
+      - name: Build ch08/Spring5
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring5
+          cp -R bin/html5/bin ../gh-pages/ch08/Spring5
+      - name: Build ch08/TripleSpring
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TripleSpring
+          cp -R bin/html5/bin ../gh-pages/ch08/TripleSpring
+      - name: Build ch08/Twips
+        working-directory: ch08
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Twips
+          cp -R bin/html5/bin ../gh-pages/ch08/Twips
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3

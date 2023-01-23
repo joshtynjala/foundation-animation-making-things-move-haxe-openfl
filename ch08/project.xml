@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 8" package="openfl.foundationanimation.ch08"/>
+	<app file="AnimationCh08"/>
+	
+	<app main="Chain"/>
+	<!-- <app main="ChainArray"/> -->
+	<!-- <app main="DoubleSpring"/> -->
+	<!-- <app main="EaseToMouse"/> -->
+	<!-- <app main="Easing1"/> -->
+	<!-- <app main="Easing2"/> -->
+	<!-- <app main="EasingOff"/> -->
+	<!-- <app main="MultiSpring"/> -->
+	<!-- <app main="OffsetSpring"/> -->
+	<!-- <app main="Spring1"/> -->
+	<!-- <app main="Spring2"/> -->
+	<!-- <app main="Spring3"/> -->
+	<!-- <app main="Spring4"/> -->
+	<!-- <app main="Spring5"/> -->
+	<!-- <app main="TripleSpring"/> -->
+	<!-- <app main="Twips"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
