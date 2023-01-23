@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 9" package="openfl.foundationanimation.ch08"/>
+	<app file="AnimationCh09"/>
+	
+	<app main="Boxes"/>
+	<!-- <app main="Bubbles1"/> -->
+	<!-- <app main="Bubbles2"/> -->
+	<!-- <app main="Distance1"/> -->
+	<!-- <app main="Distance2"/> -->
+	<!-- <app main="ObjectHitTest"/> -->
+	<!-- <app main="PointHitTest"/> -->
+	<!-- <app main="ShapeFlag"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

@@ -417,6 +417,46 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Twips
           cp -R bin/html5/bin ../gh-pages/ch08/Twips
+      - name: Build ch09/Boxes
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Boxes
+          cp -R bin/html5/bin ../gh-pages/ch09/Boxes
+      - name: Build ch09/Bubbles1
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Bubbles1
+          cp -R bin/html5/bin ../gh-pages/ch09/Bubbles1
+      - name: Build ch09/Bubbles2
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Bubbles2
+          cp -R bin/html5/bin ../gh-pages/ch09/Bubbles2
+      - name: Build ch09/Distance1
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Distance1
+          cp -R bin/html5/bin ../gh-pages/ch09/Distance1
+      - name: Build ch09/Distance2
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Distance2
+          cp -R bin/html5/bin ../gh-pages/ch09/Distance2
+      - name: Build ch09/ObjectHitTest
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ObjectHitTest
+          cp -R bin/html5/bin ../gh-pages/ch09/ObjectHitTest
+      - name: Build ch09/PointHitTest
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=PointHitTest
+          cp -R bin/html5/bin ../gh-pages/ch09/PointHitTest
+      - name: Build ch09/ShapeFlag
+        working-directory: ch09
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ShapeFlag
+          cp -R bin/html5/bin ../gh-pages/ch09/ShapeFlag
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
