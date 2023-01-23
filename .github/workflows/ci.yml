@@ -24,6 +24,12 @@ jobs:
           mkdir gh-pages/ch02
           mkdir gh-pages/ch03
           mkdir gh-pages/ch04
+          mkdir gh-pages/ch05
+          mkdir gh-pages/ch06
+          mkdir gh-pages/ch07
+          mkdir gh-pages/ch08
+          mkdir gh-pages/ch09
+          mkdir gh-pages/ch10
       # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
