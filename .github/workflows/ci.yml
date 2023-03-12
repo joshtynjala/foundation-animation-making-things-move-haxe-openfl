@@ -30,6 +30,7 @@ jobs:
           mkdir gh-pages/ch08
           mkdir gh-pages/ch09
           mkdir gh-pages/ch10
+          mkdir gh-pages/ch11
       # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
@@ -508,6 +509,36 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Rotate3
           cp -R bin/html5/bin ../gh-pages/ch10/Rotate3
+      - name: Build ch11/Billiard1
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Billiard1
+          cp -R bin/html5/bin ../gh-pages/ch11/Billiard1
+      - name: Build ch11/Billiard2
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Billiard2
+          cp -R bin/html5/bin ../gh-pages/ch11/Billiard2
+      - name: Build ch11/Billiard3
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Billiard3
+          cp -R bin/html5/bin ../gh-pages/ch11/Billiard3
+      - name: Build ch11/Billiard4
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Billiard4
+          cp -R bin/html5/bin ../gh-pages/ch11/Billiard4
+      - name: Build ch11/MultiBilliard1
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiBilliard1
+          cp -R bin/html5/bin ../gh-pages/ch11/MultiBilliard1
+      - name: Build ch11/MultiBilliard2
+        working-directory: ch11
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiBilliard2
+          cp -R bin/html5/bin ../gh-pages/ch11/MultiBilliard2
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3

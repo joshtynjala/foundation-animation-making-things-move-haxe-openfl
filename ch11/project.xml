@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 11" package="openfl.foundationanimation.ch11"/>
+	<app file="AnimationCh11"/>
+	
+	<app main="Billiard1"/>
+	<!-- <app main="Billiard2"/> -->
+	<!-- <app main="Billiard3"/> -->
+	<!-- <app main="Billiard4"/> -->
+	<!-- <app main="MultiBilliard1"/> -->
+	<!-- <app main="MultiBilliard2"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
