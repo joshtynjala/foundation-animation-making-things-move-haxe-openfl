@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 12" package="openfl.foundationanimation.ch12"/>
+	<app file="AnimationCh12"/>
+	
+	<app main="Gravity"/>
+	<!-- <app main="GravityBounce"/> -->
+	<!-- <app main="GravityRandom"/> -->
+	<!-- <app main="NodeGarden"/> -->
+	<!-- <app main="NodeGardenLines"/> -->
+	<!-- <app main="NodesMass"/> -->
+	<!-- <app main="Orbit"/> -->
+	<!-- <app main="OrbitDraw"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

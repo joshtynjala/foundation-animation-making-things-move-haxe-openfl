@@ -31,6 +31,7 @@ jobs:
           mkdir gh-pages/ch09
           mkdir gh-pages/ch10
           mkdir gh-pages/ch11
+          mkdir gh-pages/ch12
       # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
@@ -274,6 +275,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=VelocityAngle
           cp -R bin/html5/bin ../gh-pages/ch05/VelocityAngle
+      # ---------- chapter 6 ----------
       - name: Build ch06/Bouncing1
         working-directory: ch06
         run: |
@@ -314,6 +316,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=ShipSimFriction
           cp -R bin/html5/bin ../gh-pages/ch06/ShipSimFriction
+      # ---------- chapter 7 ----------
       - name: Build ch07/Drag
         working-directory: ch07
         run: |
@@ -344,6 +347,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Throwing
           cp -R bin/html5/bin ../gh-pages/ch07/Throwing
+      # ---------- chapter 8 ----------
       - name: Build ch08/Chain
         working-directory: ch08
         run: |
@@ -424,6 +428,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Twips
           cp -R bin/html5/bin ../gh-pages/ch08/Twips
+      # ---------- chapter 9 ----------
       - name: Build ch09/Boxes
         working-directory: ch09
         run: |
@@ -464,6 +469,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=ShapeFlag
           cp -R bin/html5/bin ../gh-pages/ch09/ShapeFlag
+      # ---------- chapter 10 ----------
       - name: Build ch10/AngleBounce
         working-directory: ch10
         run: |
@@ -509,6 +515,7 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=Rotate3
           cp -R bin/html5/bin ../gh-pages/ch10/Rotate3
+      # ---------- chapter 11 ----------
       - name: Build ch11/Billiard1
         working-directory: ch11
         run: |
@@ -539,6 +546,47 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=MultiBilliard2
           cp -R bin/html5/bin ../gh-pages/ch11/MultiBilliard2
+      # ---------- chapter 12 ----------
+      - name: Build ch12/Gravity
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Gravity
+          cp -R bin/html5/bin ../gh-pages/ch12/Gravity
+      - name: Build ch12/GravityBounce
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=GravityBounce
+          cp -R bin/html5/bin ../gh-pages/ch12/GravityBounce
+      - name: Build ch12/GravityRandom
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=GravityRandom
+          cp -R bin/html5/bin ../gh-pages/ch12/GravityRandom
+      - name: Build ch12/NodeGarden
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=NodeGarden
+          cp -R bin/html5/bin ../gh-pages/ch12/NodeGarden
+      - name: Build ch12/NodeGardenLines
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=NodeGardenLines
+          cp -R bin/html5/bin ../gh-pages/ch12/NodeGardenLines
+      - name: Build ch12/NodesMass
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=NodesMass
+          cp -R bin/html5/bin ../gh-pages/ch12/NodesMass
+      - name: Build ch12/Orbit
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Orbit
+          cp -R bin/html5/bin ../gh-pages/ch12/Orbit
+      - name: Build ch12/OrbitDraw
+        working-directory: ch12
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=OrbitDraw
+          cp -R bin/html5/bin ../gh-pages/ch12/OrbitDraw
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
