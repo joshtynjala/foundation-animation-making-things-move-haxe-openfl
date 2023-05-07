@@ -33,6 +33,7 @@ jobs:
           mkdir gh-pages/ch11
           mkdir gh-pages/ch12
           mkdir gh-pages/ch13
+          mkdir gh-pages/ch14
       # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
@@ -634,6 +635,48 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=RealWalk
           cp -R bin/html5/bin ../gh-pages/ch13/RealWalk
+      # ---------- chapter 14 ----------
+      - name: Build ch14/Cosines
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Cosines
+          cp -R bin/html5/bin ../gh-pages/ch14/Cosines
+      - name: Build ch14/OneSegment
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=OneSegment
+          cp -R bin/html5/bin ../gh-pages/ch14/OneSegment
+      - name: Build ch14/OneSegmentDrag
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=OneSegmentDrag
+          cp -R bin/html5/bin ../gh-pages/ch14/OneSegmentDrag
+      - name: Build ch14/TwoSegmentDrag
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TwoSegmentDrag
+          cp -R bin/html5/bin ../gh-pages/ch14/TwoSegmentDrag
+      - name: Build ch14/TwoSegmentReach
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TwoSegmentReach
+          cp -R bin/html5/bin ../gh-pages/ch14/TwoSegmentReach
+      - name: Build ch14/MultiSegmentDrag
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiSegmentDrag
+          cp -R bin/html5/bin ../gh-pages/ch14/MultiSegmentDrag
+      - name: Build ch14/MultiSegmentReach
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiSegmentReach
+          cp -R bin/html5/bin ../gh-pages/ch14/MultiSegmentReach
+      - name: Build ch14/PlayBall
+        working-directory: ch14
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=PlayBall
+          cp -R bin/html5/bin ../gh-pages/ch14/PlayBall
+      # ---------- end chapters ----------
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3
