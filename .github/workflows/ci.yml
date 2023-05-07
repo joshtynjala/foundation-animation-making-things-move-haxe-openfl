@@ -681,6 +681,14 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=PlayBall
           cp -R bin/html5/bin ../gh-pages/ch14/PlayBall
+      # ---------- chapter 15 ----------
+      # ---------- chapter 16 ----------
+      # ---------- chapter 17 ----------
+      - name: Build ch17/ExtrudedA
+        working-directory: ch17
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ExtrudedA
+          cp -R bin/html5/bin ../gh-pages/ch17/ExtrudedA
       # ---------- end chapters ----------
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
