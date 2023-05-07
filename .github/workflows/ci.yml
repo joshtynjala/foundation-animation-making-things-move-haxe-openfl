@@ -32,6 +32,7 @@ jobs:
           mkdir gh-pages/ch10
           mkdir gh-pages/ch11
           mkdir gh-pages/ch12
+          mkdir gh-pages/ch13
       # ---------- chapter 2 ----------
       - name: Build ch02/App
         working-directory: ch02
@@ -587,6 +588,52 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=OrbitDraw
           cp -R bin/html5/bin ../gh-pages/ch12/OrbitDraw
+      # ---------- chapter 13 ----------
+      - name: Build ch13/SingleSegment
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SingleSegment
+          cp -R bin/html5/bin ../gh-pages/ch13/SingleSegment
+      - name: Build ch13/TwoSegments
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TwoSegments
+          cp -R bin/html5/bin ../gh-pages/ch13/TwoSegments
+      - name: Build ch13/TwoSegments2
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TwoSegments2
+          cp -R bin/html5/bin ../gh-pages/ch13/TwoSegments2
+      - name: Build ch13/Walking1
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Walking1
+          cp -R bin/html5/bin ../gh-pages/ch13/Walking1
+      - name: Build ch13/Walking2
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Walking2
+          cp -R bin/html5/bin ../gh-pages/ch13/Walking2
+      - name: Build ch13/Walking3
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Walking3
+          cp -R bin/html5/bin ../gh-pages/ch13/Walking3
+      - name: Build ch13/Walking4
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Walking4
+          cp -R bin/html5/bin ../gh-pages/ch13/Walking4
+      - name: Build ch13/Walking5
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Walking5
+          cp -R bin/html5/bin ../gh-pages/ch13/Walking5
+      - name: Build ch13/RealWalk
+        working-directory: ch13
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RealWalk
+          cp -R bin/html5/bin ../gh-pages/ch13/RealWalk
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.3

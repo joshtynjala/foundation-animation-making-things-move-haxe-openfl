@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 13" package="openfl.foundationanimation.ch13"/>
+	<app file="AnimationCh13"/>
+	
+	<app main="SingleSegment"/>
+	<!-- <app main="TwoSegments"/> -->
+	<!-- <app main="TwoSegments2"/> -->
+	<!-- <app main="Walking1"/> -->
+	<!-- <app main="Walking2"/> -->
+	<!-- <app main="Walking3"/> -->
+	<!-- <app main="Walking4"/> -->
+	<!-- <app main="Walking5"/> -->
+	<!-- <app main="RealWalk"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
