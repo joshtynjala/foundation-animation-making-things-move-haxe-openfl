@@ -682,6 +682,81 @@ jobs:
           haxelib run openfl build html5 -final -clean --app-main=PlayBall
           cp -R bin/html5/bin ../gh-pages/ch14/PlayBall
       # ---------- chapter 15 ----------
+      - name: Build ch15/Bounce3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Bounce3D
+          cp -R bin/html5/bin ../gh-pages/ch15/Bounce3D
+      - name: Build ch15/Collision3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Collision3D
+          cp -R bin/html5/bin ../gh-pages/ch15/Collision3D
+      - name: Build ch15/Easing3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Easing3D
+          cp -R bin/html5/bin ../gh-pages/ch15/Easing3D
+      - name: Build ch15/Fireworks
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Fireworks
+          cp -R bin/html5/bin ../gh-pages/ch15/Fireworks
+      - name: Build ch15/MultiBounce3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MultiBounce3D
+          cp -R bin/html5/bin ../gh-pages/ch15/MultiBounce3D
+      - name: Build ch15/Perspective1
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Perspective1
+          cp -R bin/html5/bin ../gh-pages/ch15/Perspective1
+      - name: Build ch15/Perspective2
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Perspective2
+          cp -R bin/html5/bin ../gh-pages/ch15/Perspective2
+      - name: Build ch15/RotateX
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RotateX
+          cp -R bin/html5/bin ../gh-pages/ch15/RotateX
+      - name: Build ch15/RotateXY
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RotateXY
+          cp -R bin/html5/bin ../gh-pages/ch15/RotateXY
+      - name: Build ch15/RotateY
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RotateY
+          cp -R bin/html5/bin ../gh-pages/ch15/RotateY
+      - name: Build ch15/Spring3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Spring3D
+          cp -R bin/html5/bin ../gh-pages/ch15/Spring3D
+      - name: Build ch15/Trees1
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Trees1
+          cp -R bin/html5/bin ../gh-pages/ch15/Trees1
+      - name: Build ch15/Trees2
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Trees2
+          cp -R bin/html5/bin ../gh-pages/ch15/Trees2
+      - name: Build ch15/Velocity3D
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Velocity3D
+          cp -R bin/html5/bin ../gh-pages/ch15/Velocity3D
+      - name: Build ch15/Zsort
+        working-directory: ch15
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Zsort
+          cp -R bin/html5/bin ../gh-pages/ch15/Zsort
       # ---------- chapter 16 ----------
       - name: Build ch16/Cube
         working-directory: ch16

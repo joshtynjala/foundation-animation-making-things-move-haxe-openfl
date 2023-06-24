@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 15" package="openfl.foundationanimation.ch15"/>
+	<app file="AnimationCh15"/>
+	
+	<app main="Bounce3D"/>
+	<!-- <app main="Collision3D"/> -->
+	<!-- <app main="Easing3D"/> -->
+	<!-- <app main="Fireworks"/> -->
+	<!-- <app main="MultiBounce3D"/> -->
+	<!-- <app main="Perspective1"/> -->
+	<!-- <app main="Perspective2"/> -->
+	<!-- <app main="RotateX"/> -->
+	<!-- <app main="RotateXY"/> -->
+	<!-- <app main="RotateY"/> -->
+	<!-- <app main="Spring3D"/> -->
+	<!-- <app main="Trees1"/> -->
+	<!-- <app main="Trees2"/> -->
+	<!-- <app main="Velocity3D"/> -->
+	<!-- <app main="Zsort"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>
