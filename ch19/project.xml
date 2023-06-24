@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 19" package="openfl.foundationanimation.ch19"/>
+	<app file="AnimationCh15"/>
+	
+	<app main="Brownian1"/>
+	<!-- <app main="Brownian2"/> -->
+	<!-- <app main="Random1"/> -->
+	<!-- <app main="Random2"/> -->
+	<!-- <app main="Random3"/> -->
+	<!-- <app main="Random4"/> -->
+	<!-- <app main="Random5"/> -->
+	<!-- <app main="Random6"/> -->
+	<!-- <app main="Random7"/> -->
+	<!-- <app main="SameMass"/> -->
+	<!-- <app main="SoundEvents"/> -->
+	<!-- <app main="TimeBased"/> -->
+	<!-- <app main="Timer1"/> -->
+	<!-- <app main="Timer2"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+
+	<assets path="assets/boing.mp3" embed="false" if="html5 || flash"/>
+	<assets path="assets/boing.wav" embed="false" if="!html5 !flash"/>
+</project>

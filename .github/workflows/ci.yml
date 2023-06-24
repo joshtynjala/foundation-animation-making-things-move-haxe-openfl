@@ -846,6 +846,76 @@ jobs:
           haxelib run openfl build html5 -final -clean --app-main=SkewXY
           cp -R bin/html5/bin ../gh-pages/ch18/SkewXY
       # ---------- chapter 19 ----------
+      - name: Build ch19/Brownian1
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Brownian1
+          cp -R bin/html5/bin ../gh-pages/ch19/Brownian1
+      - name: Build ch19/Brownian2
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Brownian2
+          cp -R bin/html5/bin ../gh-pages/ch19/Brownian2
+      - name: Build ch19/Random1
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random1
+          cp -R bin/html5/bin ../gh-pages/ch19/Random1
+      - name: Build ch19/Random2
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random2
+          cp -R bin/html5/bin ../gh-pages/ch19/Random2
+      - name: Build ch19/Random3
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random3
+          cp -R bin/html5/bin ../gh-pages/ch19/Random3
+      - name: Build ch19/Random4
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random4
+          cp -R bin/html5/bin ../gh-pages/ch19/Random4
+      - name: Build ch19/Random5
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random5
+          cp -R bin/html5/bin ../gh-pages/ch19/Random5
+      - name: Build ch19/Random6
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random6
+          cp -R bin/html5/bin ../gh-pages/ch19/Random6
+      - name: Build ch19/Random7
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Random7
+          cp -R bin/html5/bin ../gh-pages/ch19/Random7
+      - name: Build ch19/SameMass
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SameMass
+          cp -R bin/html5/bin ../gh-pages/ch19/SameMass
+      - name: Build ch19/SoundEvents
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SoundEvents
+          cp -R bin/html5/bin ../gh-pages/ch19/SoundEvents
+      - name: Build ch19/TimeBased
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=TimeBased
+          cp -R bin/html5/bin ../gh-pages/ch19/TimeBased
+      - name: Build ch19/Timer1
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Timer1
+          cp -R bin/html5/bin ../gh-pages/ch19/Timer1
+      - name: Build ch19/Timer2
+        working-directory: ch19
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Timer2
+          cp -R bin/html5/bin ../gh-pages/ch19/Timer2
       # ---------- end chapters ----------
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
