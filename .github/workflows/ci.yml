@@ -689,6 +689,28 @@ jobs:
         run: |
           haxelib run openfl build html5 -final -clean --app-main=ExtrudedA
           cp -R bin/html5/bin ../gh-pages/ch17/ExtrudedA
+      # ---------- chapter 18 ----------
+      - name: Build ch18/MatrixRotate
+        working-directory: ch18
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MatrixRotate
+          cp -R bin/html5/bin ../gh-pages/ch18/MatrixRotate
+      - name: Build ch18/RotateXY
+        working-directory: ch18
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=RotateXY
+          cp -R bin/html5/bin ../gh-pages/ch18/RotateXY
+      - name: Build ch18/SkewX
+        working-directory: ch18
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SkewX
+          cp -R bin/html5/bin ../gh-pages/ch18/SkewX
+      - name: Build ch18/SkewXY
+        working-directory: ch18
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SkewXY
+          cp -R bin/html5/bin ../gh-pages/ch18/SkewXY
+      # ---------- chapter 19 ----------
       # ---------- end chapters ----------
       - name: Upload Site
         if: ${{ github.repository_owner == 'joshtynjala' && github.event_name != 'pull_request' && github.ref_name == 'main' }}
