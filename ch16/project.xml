@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Chapter 16" package="openfl.foundationanimation.ch16"/>
+	<app file="AnimationCh16"/>
+	
+	<app main="Cube"/>
+	<!-- <app main="Cylinder"/> -->
+	<!-- <app main="ExtrudedA"/> -->
+	<!-- <app main="FilledE"/> -->
+	<!-- <app main="Lines3D1"/> -->
+	<!-- <app main="Lines3D2"/> -->
+	<!-- <app main="MoveCube"/> -->
+	<!-- <app main="MovingCube"/> -->
+	<!-- <app main="Pyramid"/> -->
+	<!-- <app main="SpinningE"/> -->
+	<!-- <app main="Square3D"/> -->
+	<!-- <app main="Triangles"/> -->
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+</project>

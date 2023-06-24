@@ -683,6 +683,66 @@ jobs:
           cp -R bin/html5/bin ../gh-pages/ch14/PlayBall
       # ---------- chapter 15 ----------
       # ---------- chapter 16 ----------
+      - name: Build ch16/Cube
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Cube
+          cp -R bin/html5/bin ../gh-pages/ch16/Cube
+      - name: Build ch16/Cylinder
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Cylinder
+          cp -R bin/html5/bin ../gh-pages/ch16/Cylinder
+      - name: Build ch16/ExtrudedA
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=ExtrudedA
+          cp -R bin/html5/bin ../gh-pages/ch16/ExtrudedA
+      - name: Build ch16/FilledE
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=FilledE
+          cp -R bin/html5/bin ../gh-pages/ch16/FilledE
+      - name: Build ch16/Lines3D1
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Lines3D1
+          cp -R bin/html5/bin ../gh-pages/ch16/Lines3D1
+      - name: Build ch16/Lines3D2
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Lines3D2
+          cp -R bin/html5/bin ../gh-pages/ch16/Lines3D2
+      - name: Build ch16/MoveCube
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MoveCube
+          cp -R bin/html5/bin ../gh-pages/ch16/MoveCube
+      - name: Build ch16/MovingCube
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=MovingCube
+          cp -R bin/html5/bin ../gh-pages/ch16/MovingCube
+      - name: Build ch16/Pyramid
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Pyramid
+          cp -R bin/html5/bin ../gh-pages/ch16/Pyramid
+      - name: Build ch16/SpinningE
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=SpinningE
+          cp -R bin/html5/bin ../gh-pages/ch16/SpinningE
+      - name: Build ch16/Square3D
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Square3D
+          cp -R bin/html5/bin ../gh-pages/ch16/Square3D
+      - name: Build ch16/Triangles
+        working-directory: ch16
+        run: |
+          haxelib run openfl build html5 -final -clean --app-main=Triangles
+          cp -R bin/html5/bin ../gh-pages/ch16/Triangles
       # ---------- chapter 17 ----------
       - name: Build ch17/ExtrudedA
         working-directory: ch17
